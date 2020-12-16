@@ -1,0 +1,96 @@
+@charset "utf-8";
+*{
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif; 
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-image:  url(itl.cat_dark-web-wallpaper_2101051.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#navber1{
+    position: fixed;
+    z-index: 1;
+    width:100%;
+}
+
+
+
+
+.navbar {
+     background-color: rgba(61, 61, 61, 0.596);
+     
+     }
+.navbar .navbar-nav .nav-link {
+     color: #fff; 
+     
+    }
+.navbar .navbar-nav .nav-link:hover { 
+    color: #fbc531; 
+}
+.navbar .navbar-nav .active > .nav-link {
+     color: #fbc531; 
+    }
+
+footer a.text-light:hover {
+     color: #fed136!important; text-decoration: none;
+     }
+footer .cizgi {
+     border-right: 1px solid #535e67; 
+    }
+@media (max-width: 992px) { 
+    footer .cizgi { border-right: none; } 
+}
+
+#cont
+{
+    width: 50%;
+    height: 91.8vh;
+    background: rgba(86,86,86,0.3);
+    backdrop-filter:blur(10px);
+    position: relative;
+    left: 0;
+    top: 57px;
+}
+#pro_div
+{
+    width:60%;
+    height: 400px;
+    color:#fff;
+    position: absolute;
+    right: 40px;
+    
+    top:50%;
+    transform: translateY(-50%);
+    
+}
+#profile_ph{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-image: url(ppp.jpeg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+#name{
+    padding-left: 10px;
+   color:white; 
+}
+#scal{
+    width: 100%;
+    font-family: "Space Mono", monospace;
+    font-size: 17;
+    
+
+}
+.text-light a{
+     border:3px solid white;
+    border-style: inset;
+    border-radius: 33px;
+}
+}

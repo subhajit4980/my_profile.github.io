@@ -1,0 +1,115 @@
+@charset "utf-8";
+*{
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif; 
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-image:  url(1398313.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#navber1{
+    position: fixed;
+    z-index: 1;
+    width:100%;
+}
+#prof
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-image: url(sp.png);
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+
+
+.navbar {
+     background-color: rgba(61, 61, 61, 0.596);
+     
+     }
+.navbar .navbar-nav .nav-link {
+     color: #fff; 
+     
+    }
+.navbar .navbar-nav .nav-link:hover { 
+    color: #fbc531; 
+}
+.navbar .navbar-nav .active > .nav-link {
+     color: #fbc531; 
+    }
+
+footer a.text-light:hover {
+     color: #fed136!important; text-decoration: none;
+     }
+footer .cizgi {
+     border-right: 1px solid #535e67; 
+    }
+@media (max-width: 992px) { 
+    footer .cizgi { border-right: none; } 
+}
+
+
+.container2{
+    width: 50%;
+    height: 92.3vh;
+    background: rgba(86,86,86,0.3);
+    backdrop-filter:blur(10px);
+    position: relative;
+    left: 0;
+    top: 57px;
+
+}
+
+.info{
+    width: 505px;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top:50%;
+    transform: translateY(-50%);
+}
+.info h2{
+    font-size: 48px;
+    letter-spacing: 3px;
+     font-family: Georgia, serif;
+    border:10px solid white;
+    border-style: outset;
+    border-radius: 33px;
+    border-color: #ccff33;
+   
+}
+.info h3{
+    color: #f0eef1;
+    font-size: 30px;
+    margin: 20px 0;
+    line-height: 30px;
+   font-family: 'Abril Fatface', serif;
+     
+}
+.info input{
+    padding: 8px 10px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    color:#fff;
+    font-size: 12px;
+}
+::placeholder{
+    color: #ccc;
+}
+.fa fa-scribd{
+    color: #fff;
+    font-size: 60px;
+    font-style: inherit;
+    border:10px solid white;
+    border-style: outset;
+    border-radius: 30px;
