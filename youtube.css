@@ -49,7 +49,7 @@ footer .cizgi {
 
 
 .container2{
-    width: 10%;
+    width: 6%;
     height: 40vh;
     background: rgba(236, 236, 236, 0.226);
     backdrop-filter:blur(10px);
@@ -74,7 +74,7 @@ footer .cizgi {
 
 #search
 {
-    width: 85.5%;
+    width: 85%;
     height: 8vh;
     background: rgba(24, 21, 21, 0.596);
     backdrop-filter:blur(10px); 
